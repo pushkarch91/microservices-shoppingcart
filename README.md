@@ -161,3 +161,12 @@ http://localhost:9090/orders/1
 ```
 Order Service is down!
 ```
+
+
+
+docker build -t pushkarchauhan91/serviceregistry:0.0.1 .
+docker run -d -p8761:8761 --name sericeregistry 93aa033c63b3
+docker ps
+
+check http://localhost:8761/
+
